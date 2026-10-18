@@ -1,0 +1,51 @@
+# Virtual muhit (yuzlab MB, har kim o'zi qayta yaratadi)
+.venv/
+venv/
+env/
+
+# Python keshi
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (katta fayllar, kodda yuklab olish skripti bo'ladi)
+data/
+*.txt
+!requirements.txt
+
+# O'qitilgan model va checkpoint'lar (yuzlab MB bo'lishi mumkin)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npy
+*.npz
+
+# O'qitish loglari
+runs/
+logs/
+wandb/
+tensorboard/
+
+# Maxfiy ma'lumotlar (hech qachon GitHub'ga chiqmasin)
+.env
+.env.*
+*.key
+secrets/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Muharrir sozlamalari
+.vscode/
+.idea/
